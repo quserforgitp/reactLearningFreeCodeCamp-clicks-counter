@@ -1,5 +1,6 @@
 import './App.css';
 import freeCodeCampLogo from './imagenes/FreeCodeCamp_logo.png';
+import Boton from './componentes/Boton';
 
 function App() {
   return (
@@ -11,7 +12,14 @@ function App() {
         alt="logo de freeCodeCamp" />
       </div>
       <div className="contenedor-principal">
-        
+        <Boton 
+          texto="Clic"
+          esBotonDeClic={true}
+          manejarClic={} />
+        <Boton 
+          texto="Reiniciar"
+          esBotonDeClic={false}
+          manejarClic={} />
       </div>
     </div>
   );
