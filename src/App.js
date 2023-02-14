@@ -42,3 +42,6 @@ function App() {
 }
 
 export default App;
+
+
+// https://design-style-guide.freecodecamp.org/#logo guia fcc para disenio
