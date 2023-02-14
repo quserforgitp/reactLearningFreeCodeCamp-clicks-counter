@@ -2,15 +2,18 @@ import './App.css';
 import freeCodeCampLogo from './imagenes/FreeCodeCamp_logo.png';
 import Boton from './componentes/Boton.jsx';
 import Contador from './componentes/Contador.jsx';
+import { useState } from 'react'; // hook para trabajar con estados
 
 function App() {
+        // valor a usar como estado , funcion que le hace algo al estado = estado inicial
+  const [numClics, setNumClics] = useState(0); 
 
   const manejarClic = () => {
-    console.log("clic");
+    setNumClics(numClics + 1);
   }
 
   const reiniciarContador = () => {
-    console.log("reiniciar");
+    setNumClics(0);
   }
 
 
@@ -24,7 +27,7 @@ function App() {
       </div>
       <div className="contenedor-principal">
         <Contador 
-          numClics="5" />
+          numClics={numClics} />
         <Boton 
           texto="Clic"
           esBotonDeClic={true}
