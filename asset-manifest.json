@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactLearningFreeCodeCamp-clicks-counter/static/css/main.e5974346.css",
+    "main.js": "/reactLearningFreeCodeCamp-clicks-counter/static/js/main.5c76b249.js",
+    "static/media/FreeCodeCamp_logo.png": "/reactLearningFreeCodeCamp-clicks-counter/static/media/FreeCodeCamp_logo.5486935b905c7949600c.png",
+    "index.html": "/reactLearningFreeCodeCamp-clicks-counter/index.html",
+    "main.e5974346.css.map": "/reactLearningFreeCodeCamp-clicks-counter/static/css/main.e5974346.css.map",
+    "main.5c76b249.js.map": "/reactLearningFreeCodeCamp-clicks-counter/static/js/main.5c76b249.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5974346.css",
+    "static/js/main.5c76b249.js"
+  ]
+}
